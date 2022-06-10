@@ -22,7 +22,7 @@
     }
 }
 #Scan-Port -ip localhost
-foreach($line in [System.IO.File]::ReadLines("C:\Users\32470\rep.txt")) {
+foreach($line in [System.IO.File]::ReadLines("C:\Users\tomhn0808\rep.txt")) {
     Scan-Port -ip $line
 }
 
